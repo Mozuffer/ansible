@@ -1,0 +1,14 @@
+[master]
+kube-master-vm
+
+[nodes]
+kube-node-vm01
+kube-node-vm02
+
+[docker:children]
+master
+nodes
+
+[kube-cluster:children]
+master
+nodes

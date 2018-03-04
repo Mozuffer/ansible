@@ -1,0 +1,4 @@
+---
+dependencies:
+  - { role: kubernetes/commons, pkgs: [ "kubelet", "kubernetes-cni", "kubeadm" ] }
+...
