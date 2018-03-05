@@ -1,5 +1,5 @@
 ---
-kube_version: v1.9.1
+kube_version: v1.9.3
 token: b0f7b8.8d1767876297d85c
 init_opts: ""
 service_subnet: 10.0.1
